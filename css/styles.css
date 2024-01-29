@@ -1,0 +1,66 @@
+* {
+	font-family: 'Courier New', Courier, monospace;
+  	--white: #f0f0f0;
+  	--black: #000202;
+  	--border: #ccc;
+  }
+
+  body {
+    background-image: url(/assets/leaf.jpg);
+    background-attachment: fixed;
+	background-size: cover;
+  }
+  
+  h1 {
+	text-align: center;
+  }
+  
+  form {
+	margin-bottom: 20px;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+	width: 50%;
+	padding: 5px;
+	margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+  	width: 15%;
+  	height: 50px;
+  	padding: 5px 10px;
+  	font-size: 20px;
+  	background-color: var(--black);
+  	border: none;
+  	border-radius: 5px;
+  	color: var(--white);
+  	cursor: pointer;
+  	text-align: center;
+  	transition: background-color 0.3s ease;
+  }
+  
+  table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  th, td {
+	padding: 10px;
+	border: 1px solid var(--border);
+  }
+  
+  th {
+	background-color: var(--white);
+  }
+  
+  td:last-child {
+	text-align: center;
+  }
+  
