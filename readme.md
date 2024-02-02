@@ -6,5 +6,5 @@
 Background image from stylar.ai - prompt:
 Leaf in a dna formation from a distance, amazing, feelgood.
 
-Did some changes in photoshop to match the page.
+Did some changes in photoshop for the image to fit the page.
 

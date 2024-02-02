@@ -1,5 +1,6 @@
 * {
 	font-family: 'Courier New', Courier, monospace;
+	--background: #edece8;
   	--white: #f0f0f0;
   	--black: #000202;
   	--border: #ccc;
@@ -64,3 +65,12 @@
 	text-align: center;
   }
   
+  @media only screen and (max-width: 768px) {
+	body {
+		background-image: url(/assets/leaf.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: var(--background);
+		background-position: center top 50px;
+	}
+}
