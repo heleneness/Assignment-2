@@ -1,3 +1,6 @@
+
+// Medicine objects
+
 class Medicine {
 	constructor(productName, productID, manufacturer, expirationDate, quantity) {
 	  this.productName = productName;
@@ -7,6 +10,9 @@ class Medicine {
 	  this.quantity = quantity;
 	}
 }
+
+
+// Define Pharmacy Inventory, method to add, delete, display, iterate
 
 class PharmacyInventory {
 	constructor() {
@@ -42,6 +48,9 @@ class PharmacyInventory {
 	  });
 	}
 
+
+	// Save to local storage
+
 	saveInventory() {
 	  localStorage.setItem('pharmacyInventory', JSON.stringify(this.medicines));
 	}
@@ -55,6 +64,9 @@ class PharmacyInventory {
 }
 
 const pharmacyInventory = new PharmacyInventory();
+
+
+// Handle form, input, values, resets, delete
 
 function addMedicine(event) {
 	event.preventDefault();
