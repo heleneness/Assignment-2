@@ -24,6 +24,9 @@
 	display: block;
 	margin-bottom: 5px;
   }
+
+
+  /* Styles for text, date, and number input fields */
   
   input[type="text"],
   input[type="date"],
@@ -32,6 +35,9 @@
 	padding: 5px;
 	margin-bottom: 10px;
   }
+
+
+  /* Submit button */
   
   button[type="submit"] {
   	width: 15%;
@@ -46,6 +52,9 @@
   	text-align: center;
   	transition: background-color 0.3s ease;
   }
+
+
+  /* Styles for tables */
   
   table {
 	width: 100%;
@@ -64,6 +73,9 @@
   td:last-child {
 	text-align: center;
   }
+
+
+  /* Media query for screens with a maximum width of 768px */
   
   @media only screen and (max-width: 768px) {
 	body {
