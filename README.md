@@ -8,4 +8,6 @@ Leaf in a dna formation from a distance, amazing, feelgood.
 
 Did some changes in photoshop for the image to fit the page.
 
+Link to Github: https://github.com/heleneness/Assignment-2.git
+
 Link to Netlify: https://moonlit-cajeta-c9280a.netlify.app
