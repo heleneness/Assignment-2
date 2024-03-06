@@ -1,4 +1,3 @@
-
 // Medicine objects
 
 class Medicine {
@@ -11,11 +10,11 @@ class Medicine {
 	}
 }
 
-
 // Define Pharmacy Inventory, method to add, delete, display, iterate
 
-class PharmacyInventory {
+class PharmacyInventory extends Medicine {
 	constructor() {
+	  super();
 	  this.medicines = [];
 	  this.loadInventory();
 	}
@@ -48,7 +47,6 @@ class PharmacyInventory {
 	  });
 	}
 
-
 	// Save to local storage
 
 	saveInventory() {
@@ -64,7 +62,6 @@ class PharmacyInventory {
 }
 
 const pharmacyInventory = new PharmacyInventory();
-
 
 // Handle form, input, values, resets, delete
 
